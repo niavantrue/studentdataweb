@@ -1,0 +1,64 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 25px 50px 50px 50px;
+    background: rgb(236,189,241);
+    background: -moz-linear-gradient(6deg, rgba(236,189,241,1) 0%, rgba(199,208,242,1) 100%);
+    background: -webkit-linear-gradient(6deg, rgba(236,189,241,1) 0%, rgba(199,208,242,1) 100%);
+    background: linear-gradient(6deg, rgba(236,189,241,1) 0%, rgba(199,208,242,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ecbdf1",endColorstr="#c7d0f2",GradientType=1);
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 90%;
+    background-color: white;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 20px;
+    margin: auto;
+}
+
+input#nrp {
+    width: 30%;
+}
+
+input#name {
+    width: 65%;
+}
+
+select#gender {
+    width: 20%;
+}
+
+input#birthplace {
+    width: 30%;
+}
+
+input#birthdate {
+    width: 30%;
+}
+
+textarea#address {
+    width: 80%;
+}
+
+input#religion {
+    width: 40%;
+}
+
+input#major {
+    width: 60%;
+}
+
+input#age {
+    width: 20%;
+}
